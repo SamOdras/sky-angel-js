@@ -1,0 +1,133 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+@mixin tengah {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.hide {
+  position: absolute;
+  left: -999999px;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.game-view-wrapper {
+  @include tengah;
+}
+.form-wrapper{
+  @include tengah;
+  .form{
+    background-color: #1ccbc7;
+    padding: 30px;
+    border-radius: 5px;
+  }
+}
+.username-wrapper {
+  @include tengah;
+  flex-direction: column;
+  align-items: center;
+}
+
+.world {
+  overflow: hidden;
+  position: relative;
+  border: 5px solid black;
+  width: 1000px;
+  height: 400px;
+  .overlay {
+    display: block;
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 99;
+    cursor: pointer;
+
+    &-title {
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      font-size: 50px;
+      color: white;
+      text-align: center;
+      transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+    }
+    &-subtitle{
+      position: absolute;
+      top: 65%;
+      left: 50%;
+      font-size: 50px;
+      font-size: 25px;
+      color: white;
+      text-align: center;
+      transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+    }
+  }
+    .status-position {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .cloud-1 {
+    width: 50%;
+    position: absolute;
+    z-index: 1;
+    --left: 0;
+    left: calc(var(--left) * 1%)
+  }
+  .cloud-2{
+    position: absolute;
+    width: 45%;
+    z-index: 1;
+    --left: 0;
+    left: calc(var(--left) * 1%)
+  }
+  .cloud-3{
+    position: absolute;
+    width: 40%;
+    z-index: 1;
+    --left: 0;
+    left: calc(var(--left) * 1%)
+  }
+  .aircraft{
+    width:8%;
+    position: absolute;
+    z-index: 2;
+  }
+  .parachute{
+    position: absolute;
+    right: 0;
+    width:5%;
+  }
+  .star {
+    position: absolute;
+    width: 4%;
+    right: 50%;
+    left: 50%;
+  }
+  .bird-1 {
+    position: absolute;
+    width: 5%;
+    z-index: 2;
+  }
+  .bird-2 {
+    position: absolute;
+    width: 5%;
+    z-index: 1;
+  }
+  .bird-3 {
+    position: absolute;
+    width: 5%;
+    z-index: 1;
+  }
+}
+

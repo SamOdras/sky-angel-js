@@ -1,0 +1,88 @@
+{
+  "ladderboard": [
+    {
+      "name": "Samodra",
+      "time": 93.65922800000011,
+      "stars": 0,
+      "id": 1
+    },
+    {
+      "name": "Samodra",
+      "time": 93.72861300000002,
+      "stars": 2,
+      "id": 2
+    },
+    {
+      "name": "Samodra",
+      "time": 96.91286499999998,
+      "stars": 2,
+      "id": 3
+    },
+    {
+      "name": "Samodra",
+      "time": 96.91286499999998,
+      "stars": 2,
+      "id": 4
+    },
+    {
+      "name": "Samodra",
+      "time": 96.91286499999998,
+      "stars": 2,
+      "id": 5
+    },
+    {
+      "name": "Ardilarsen",
+      "time": 97.3967050000001,
+      "stars": 0,
+      "id": 6
+    },
+    {
+      "name": "Ardilarsen",
+      "time": 98.96535400000005,
+      "stars": 0,
+      "id": 7
+    },
+    {
+      "name": "Ardilarsen",
+      "time": 98.96535400000005,
+      "stars": 17,
+      "id": 8
+    },
+    {
+      "name": "Ardilarsen",
+      "time": 98.96535400000005,
+      "stars": 17,
+      "id": 9
+    },
+    {
+      "name": "Samodra",
+      "time": 89.97605200000001,
+      "stars": 5,
+      "id": 10
+    },
+    {
+      "name": "Samodra",
+      "time": 89.97605200000001,
+      "stars": 8,
+      "id": 11
+    },
+    {
+      "name": "Samodra",
+      "time": 100,
+      "stars": 8,
+      "id": 12
+    },
+    {
+      "name": "Samodra",
+      "time": 100,
+      "stars": 8,
+      "id": 13
+    },
+    {
+      "name": "Samodra",
+      "time": 100,
+      "stars": 8,
+      "id": 14
+    }
+  ]
+}

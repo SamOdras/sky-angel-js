@@ -22,7 +22,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-Movie Catalog is a React-Redux application where you can meet socialize with your friends.
+SKY ANGEL
 
 ### Built With
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
@@ -51,7 +51,7 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo
    ```sh
-   git clone https://gitlab.com/odrassam/react-space-chatting
+   git clone https://gitlab.com/odrassam/sky-angel-js
    ```
 2. Install NPM packages
    ```sh
@@ -62,16 +62,18 @@ This is an example of how to list things you need to use the software and how to
 
 1. Follow the installation guide first
 
-2. Run Npm
+2. Run Json Server
+   ```sh
+   npm start-db
+   ```
+   ```sh
+   yarn start-db
+   ```
+
+3. Run App
    ```sh
    npm start
    ```
-
-### How to test in local
-
-1. Follow the installation guide first
-
-2. Run Npm
    ```sh
-   npm test
+   yarn start
    ```
